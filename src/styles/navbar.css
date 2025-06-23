@@ -2,24 +2,26 @@
 nav {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 200px;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 0 1rem;
+
 }
 
 nav a {
-    text-decoration: none;
-    padding: 10px 20px;
-    color: #505050;
-    transition: 0.5s;
-    font-size: 30px;
-    letter-spacing: 15px;
-    min-width: 230px;
-    text-align: center;        
-    display: inline-block;
-    position: relative;
-    text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
-    border-bottom: 2px solid transparent;
-    
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: #505050;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  letter-spacing: 0.1em;
+  min-width: auto;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
 }
 
 nav a::before {
@@ -49,7 +51,6 @@ nav a:hover::before {
     text-shadow: 0 0 15px #00f0ff, 0 0 25px #00f0ff, 0 0 35px #00f0ff;
 }
 
-/* Glitch effect animation */
 @keyframes glitch {
     0%, 100% {
         clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
@@ -62,5 +63,13 @@ nav a:hover::before {
     66% {
         clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
         transform: translate(2px, 2px);
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 1.2rem;
+        letter-spacing: 1vw;
+        min-width: auto;
     }
 }
