@@ -1,0 +1,102 @@
+
+.pages{
+    overflow-y:auto;
+    background-color: rgba(33, 32, 32, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 190vh;
+    height: 78vh;
+    text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+    padding:10px;
+    margin-left: -5px;
+}
+
+.topName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 30px;
+    border-bottom: 1px solid #00f0ff;
+
+}
+
+.middleBody{
+    font-size: 20px;
+}
+.cyber-text {
+  color: #00f0ff;
+  font-family: 'Share Tech Mono', monospace;
+  white-space: pre-wrap;
+  text-shadow:
+    0 0 5px #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff;
+  animation: pulse 2s infinite ease-in-out;
+  margin-top: 1rem;
+  padding-bottom: 50px;
+}
+.bottomButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 30px;
+}
+
+.short-des{
+  padding:50px;
+  font-size: 20px;
+}
+
+.I-know{
+  display: flex;
+  align-items: center;
+  background: rgba(60, 60, 60, 0.4);
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 5rem;
+  border-radius: 1rem;
+  font-size: 30px;
+}
+
+.project-card{
+  display: inline-block;
+  padding: 60px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 8px #00f0ff;
+  margin:35px
+}
+
+.project-card:hover {
+  box-shadow:
+    0 0 8px #00f0ff,
+    0 0 16px #00f0ff,
+    0 0 32px #00f0ff;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow:
+      0 0 5px #00f0ff,
+      0 0 10px #00f0ff,
+      0 0 20px #00f0ff;
+  }
+  50% {
+    text-shadow:
+      0 0 10px #00f0ff,
+      0 0 20px #00f0ff,
+      0 0 40px #00f0ff;
+  }
+  100% {
+    text-shadow:
+      0 0 5px #00f0ff,
+      0 0 10px #00f0ff,
+      0 0 20px #00f0ff;
+  }
+}
+

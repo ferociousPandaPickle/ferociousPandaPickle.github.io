@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body{
+  background: url('/wallpaper.gif') no-repeat center center fixed;
+  background-size: cover;
+  color:#00f0ff;
+  font-family: 'Audiowide', cursive;
+  height: 100%;
+  overflow: hidden;
+}
+h1,h2{
+  font-family: 'Orbitron', sans-serif;
+  color: #ff00e6;
+  text-shadow: 0 0 8px #ff00e6, 0 0 16px #ff00e6;
+}
+.terminal-emulator{
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.4);
+  border: 5px solid #0e1312;
+  border-radius: 8px;
+  background-color:linear-gradient(45deg, #0a0a0a, #1a1a2e, #16213e);
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  height: calc(100vh - 80px);
+  
+}
+.bot-footer{
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 0;
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;  
+}
