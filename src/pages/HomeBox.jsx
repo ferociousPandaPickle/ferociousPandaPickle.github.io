@@ -31,7 +31,7 @@ function Home(){
 
             <div className="bottomButtons">
                 <a
-                href="/Internship Resume.pdf"
+                href="/InternshipResume.pdf"
                 target='_blank'
                 style={{ textDecoration: 'none',   color: '#00f0ff', }}
                 >
