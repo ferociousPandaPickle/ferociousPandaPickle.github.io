@@ -31,7 +31,7 @@ function Home(){
 
             <div className="bottomButtons">
                 <a
-                href="personal-portifolio\src\assets\Internship Resume.pdf"
+                href="personal-portifolio\public\Internship Resume.pdf"
                 target='_blank'
                 download="Pranav-Kadiyam-Resume.pdf"
                 style={{ textDecoration: 'none',   color: '#00f0ff', }}
