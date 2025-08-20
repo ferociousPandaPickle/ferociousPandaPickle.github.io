@@ -31,9 +31,8 @@ function Home(){
 
             <div className="bottomButtons">
                 <a
-                href="personal-portifolio\public\Internship Resume.pdf"
+                href="/Internship Resume.pdf"
                 target='_blank'
-                download="Pranav-Kadiyam-Resume.pdf"
                 style={{ textDecoration: 'none',   color: '#00f0ff', }}
                 >
                 <button style={{ all: 'unset', cursor: 'pointer' }}>
