@@ -31,7 +31,7 @@ function Home(){
 
             <div className="bottomButtons">
                 <a
-                href="/assets/resume-1.pdf"
+                href="/assets/Internship Resume.pdf"
                 download="Pranav-Kadiyam-Resume.pdf"
                 style={{ textDecoration: 'none',   color: '#00f0ff', }}
                 >
